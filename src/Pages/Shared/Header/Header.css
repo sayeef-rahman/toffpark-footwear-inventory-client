@@ -1,0 +1,12 @@
+.navbar-link a {
+    margin: 0 10px;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link a:hover {
+    text-decoration: underline rgb(255, 90, 13);
+    text-underline-offset: 0.5em;
+    color: yellow;
+}

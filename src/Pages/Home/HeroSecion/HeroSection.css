@@ -1,0 +1,14 @@
+.hero-section {
+  background-image: url("../../../images/hero-section.png");
+  background-size: cover;
+  height: 80vh;
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-section {
+    background-image: url("../../../images/hero-section-mobile.png");
+    background-size: cover;
+    height: 75vh;
+    width: 100vw;
+  }
+}

@@ -1,0 +1,31 @@
+.shoes-container{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.shoes-container img{
+    width: 100%;
+}
+
+.items-title{
+    color: #4CAF50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Make Services Resposive */
+@media only screen and (max-width: 576px)  {
+    .shoes-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+@media only screen and (min-width: 577px) and (max-width: 992px)  {
+    .shoes-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

@@ -1,0 +1,10 @@
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline white;
+    text-underline-offset: 0.5em;
+    transition: 1s;
+    color: orange;
+}

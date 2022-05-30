@@ -1,0 +1,6 @@
+@media only screen and (min-width: 800px) {
+    .main-card-container{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
